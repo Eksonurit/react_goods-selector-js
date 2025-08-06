@@ -73,7 +73,6 @@ export const App = () => {
                   {good}
                 </td>
               </tr>
-          // eslint-disable-next-line prettier/prettier
           ))}
         </tbody>
       </table>
