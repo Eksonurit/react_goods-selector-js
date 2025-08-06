@@ -28,6 +28,11 @@ export const App = () => {
         {selectedGood !== ''
           ? `${selectedGood} is selected`
           : 'No goods selected'}
+
+          <button type='button' data-cy="ClearButton" className="delete ml-3"
+          onClick={() => {
+            setSelectedGood('');
+          }} />
       </h1>
 
       <table className="table">
